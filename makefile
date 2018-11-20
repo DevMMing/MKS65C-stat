@@ -5,4 +5,4 @@ run:
 clean:
 	rm *.o ./a.out
 file.o: stat.c stat.h
-gcc -c stat.c
+	gcc -c stat.c
